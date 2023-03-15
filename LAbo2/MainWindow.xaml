@@ -5,32 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LAbo2"
         mc:Ignorable="d"
-        Title="Calculatrice" Height="640" Width="640">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,559,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,493,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,429,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,363,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,297,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="2,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="89,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="176,233,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="66" Margin="264,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        Title="Calculatrice"
+        Height="640" Width="640"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF9FCCF4">
+        <Button Content="+/-" HorizontalAlignment="Left" Height="66" Margin="2,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="66" Margin="89,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="," HorizontalAlignment="Left" Height="66" Margin="176,559,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="=" HorizontalAlignment="Left" Height="66" Margin="264,559,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="1" HorizontalAlignment="Left" Height="66" Margin="2,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="66" Margin="89,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="66" Margin="176,493,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="66" Margin="264,493,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="66" Margin="2,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="66" Margin="89,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="66" Margin="176,429,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="66" Margin="264,429,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="66" Margin="2,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="66" Margin="89,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="66" Margin="176,363,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="x" HorizontalAlignment="Left" Height="66" Margin="264,363,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="1/x" HorizontalAlignment="Left" Height="66" Margin="2,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="x²" HorizontalAlignment="Left" Height="66" Margin="89,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="2Rx" HorizontalAlignment="Left" Height="66" Margin="176,297,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="66" Margin="264,297,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="%" HorizontalAlignment="Left" Height="66" Margin="2,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="CE" HorizontalAlignment="Left" Height="66" Margin="89,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="C" HorizontalAlignment="Left" Height="66" Margin="176,233,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="Supp" HorizontalAlignment="Left" Height="66" Margin="264,233,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <Button Content="MC" HorizontalAlignment="Left" Height="33" Margin="2,200,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="MR" HorizontalAlignment="Left" Height="33" Margin="60,200,0,0" VerticalAlignment="Top" Width="57" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="M+" HorizontalAlignment="Left" Height="33" Margin="117,200,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="M-" HorizontalAlignment="Left" Height="33" Margin="176,200,0,0" VerticalAlignment="Top" Width="57" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="MS" HorizontalAlignment="Left" Height="33" Margin="233,200,0,0" VerticalAlignment="Top" Width="57" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="Mv" HorizontalAlignment="Left" Height="33" Margin="287,200,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click" Background="#FF9FCCF4" BorderBrush="#FF9FCCF4"/>
+        <Button Content="" HorizontalAlignment="Left" Height="31" Margin="31,21,0,0" VerticalAlignment="Top" Width="37" BorderBrush="#FF9FCCF4">
+            <Button.Background>
+                <ImageBrush ImageSource="/menu.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Standard" HorizontalAlignment="Left" Height="31" Margin="88,21,0,0" VerticalAlignment="Top" Width="261" FontWeight="Bold" FontSize="16"/>
+
+        <GridSplitter Grid.Column="0" Width="5"/>
+
 
 
     </Grid>
